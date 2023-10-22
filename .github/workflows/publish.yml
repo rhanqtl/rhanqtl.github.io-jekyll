@@ -19,3 +19,4 @@ jobs:
       with:
         pre_build_commands: gem update --system
         token: ${{ secrets.GITHUB_TOKEN }}
+        target_branch: 'gh-pages'
