@@ -1,0 +1,108 @@
+---
+title: "个人简历"
+linkTitle: "个人简历"
+menu:
+  main:
+    weight: 0
+---
+
+== 基本信息
+
+* 性别：男
+* 邮箱：mailto:my@rhanqtl.com[my@rhanqtl.com]
+
+== 教育经历
+
+* 硕士：南京大学软件学院（2020.09 -- 2022.06）
+* 本科：南京大学软件学院（2016.09 -- 2020.07）
+
+== 工作经历
+
+* 正式员工
+  ** 腾讯（2022.08 -- 2022.12）
+* 实习
+  ** 星环信息科技（2021.10 -- 2022.04）
+  ** 字节跳动（2021.05 -- 2021.08）
+  ** 星环信息科技（2020.07 -- 2020.08）
+
+== 助教
+
+* 南京大学软件学院 2019 级《C++ 高级程序设计》
+* 南京大学软件学院 2020 级《C++ 高级程序设计》
+
+== 兴趣
+
+* 学习各种范式的编程语言，（尝试）学过的包括 link:https://go.dev/[Go]、Java、$$C++$$、link:https://www.python.org/[Python]、Scala、Rust、Ruby、Haskell、SML、Racket、Scheme、Perl、Erlang、TypeScript、C#、Brainfuck ...
+* 程序设计语言及其实现
+
+== 正在学习
+
+* C++
+  ** [20%] https://db.in.tum.de/teaching/ss22/c%2b%2bpraktikum/index.shtml?lang=en[System Programming in $$C++$$] 涉及现代 $$C++$$，不过可惜的是访问不到 PA 和项目
+  ** [DONE] https://www.stroustrup.com/programming.html[Programming: Principles and Practice Using $$C++$$] by Bjarne Stroustrup
+  ** [TODO] https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876[Effective $$C++$$] by Scott Meyers
+  ** [TODO] https://www.amazon.com/Inside-Object-Model-Stanley-Lippman/dp/0201834545[Inside the $$C++$$ Object Model] by Stanley B. Lippman
+  ** [TODO] https://www.stroustrup.com/4th.html[The $$C++$$ Programming Language] by Bjarne Stroustrup
+* 程序设计语言及其实现
+  ** [85%] https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/index.html[My First Language Frontend with LLVM Tutorial]
+  ** [10%] Static Program Analysis
+  ** [5%] The SSA Book
+
+== 推荐资源
+
+=== 程序设计语言及其实现
+
+==== 入门
+
+* Engineering a Compiler 讲解编译器的理论知识，包括词法分析、语法分析、语义分析（很浅）、中间代码生成、优化和目标代码生成
+* Crafting Interpreters
+  ** 就实现技术而言，涵盖了 Tree-Walk 解释器和虚拟机
+  ** 就语言特性而言，涵盖了字面量、变量、运算符、控制流、FP、OOP
+* 七周七语言 - 以七个编程语言为例展示了各种编程范式（面向对象、函数式编程、逻辑编程），对于开阔眼界有帮助，可惜的是都是浅尝辄止
+* Programming Languages（Coursera）
+  ** https://www.coursera.org/learn/programming-languages[Part A] 讲解 SML/NJ
+  ** https://www.coursera.org/learn/programming-languages-part-b[Part B] 讲解 Racket
+  ** https://www.coursera.org/learn/programming-languages-part-c[Part C] 讲解 Ruby
+
+==== 进阶
+
+* Ruby Under a Microscope - 主要是讲解了 MRI 一些比较浅显的知识，包括怎样进行词法分析和语法分析、各种语义在 VM 中是如何实现的，对于了解 Ruby 有一定帮助；此外还涉猎了一点 JRuby 和 Rubinius 的实现。
+
+=== 工具
+
+* link:https://www.oreilly.com/library/view/flex-bison/9780596805418/?_gl=1*1m4okjo*_ga*NzM3Mjc1NDUzLjE2NzUyMjEyODY.*_ga_092EL089CH*MTY3NTgyNTcyMy4zLjAuMTY3NTgyNTcyOC41NS4wLjA.[Flex and Bison] by John Levine
+  ** Flex 和 Bison 大概是如今（截止到 2023 年）最为广泛使用的词法分析和语法分析器生成器
+  ** 中文版的翻译大体上还可以，只是有一些地方有点奇怪（例如“语法糖”翻译成“语法甜头”）
+  ** 建议：
+    *** 第 4 章没有什么特别新的知识，可以放在后面看
+    *** 第 5、6 章的内容属于手册性质，而且内容与第 9 章有重叠，可以放在最后看或者跳过
+    *** 第 7 章需要一些 parsing 算法的知识（尤其是 LALR 和二义性），读起来会轻松一点
+  ** 有点过时，有条件建议直接看 Flex 和 link:https://www.gnu.org/software/bison/manual/[Bison] 的官方手册，信息密度更大
+
+=== 软件设计
+
+* Head First Design Patterns 不错的入门书籍，不过没有完全覆盖 23 个设计模式
+* GoF 设计模式，经典之作
+* Game Programming Patterns / Design Patterns Revisited
+* https://refactoring.guru[refactoring.guru]
+* Peter Norvig 关于动态语言中设计模式的使用的link:http://www.norvig.com/design-patterns/design-patterns.pdf[演讲]
+
+=== 算法
+
+* [LeetCode Top 100 列表](https://leetcode.cn/studyplan/top-100-liked/)
+* [清华大学《数据结构》](#TODO)
+
+=== 其它
+
+==== 课程
+
+* The Missing Semester
+  ** 英文官网: https://missing.csail.mit.edu/
+  ** 中文网站（不确定是不是官网）: https://missing-semester-cn.github.io/
+  ** 教授 CS 从业人员使用的各种工具。课程内容一览：
+
+.The Missing Semester 的内容大纲
+image::images/missing-semester-schedule.png[,,300,float="right",align="center"]
+
+* Linux 命令行操作学习路线图，参见 {{ ref "/posts/tools/command-line-roadmap" }}
+
