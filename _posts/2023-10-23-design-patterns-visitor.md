@@ -1,6 +1,5 @@
 ---
 title: "Visitor 模式"
-date: 2023-01-13T15:09:31+08:00
 tags: [设计模式, Design Pattern]
 summary: \-
 
