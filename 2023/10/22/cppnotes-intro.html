@@ -1,0 +1,197 @@
+<!doctype html>
+<!--[if IE 9]>
+<html class="lt-ie10" lang="en"> <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第 1 讲：快速入门</title>
+    <meta name="description" content="The Jekyll AsciiDoc Quickstart project is a leg-up in starting your own website hosted on GitHub with content based in AsciiDoc.">
+    <meta name="author" content="Your name goes here">
+    <meta name="copyright" content="Maybe consider a Creative Commons license">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/coderay.css">
+    <link rel="stylesheet" href="css/asciidoctor.css">
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/toc.js"></script>
+</head>
+<body>
+
+
+<!-- Nav Bar -->
+
+<nav class="top-bar" data-topbar>
+    <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+            <h1>
+                <a href="">Jekyll AsciiDoc Quickstart</a>
+            </h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns" role="content">
+
+        <div class="sect1">
+<h2 id="基本元素">基本元素</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="基础类型1">基础类型<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></h3>
+<div class="paragraph">
+<p>如果说程序设计语言中最基础的概念是什么，我想应该就是类型，类型规定了其成员和可以对成员进行的操作，没有这一点，其他内容都无从谈起。</p>
+</div>
+<div class="paragraph">
+<p>我们与计算机进行交互是为了处理数据，最常见的数据就是数值，而数值又有自然数和小数之分。C++ 也提供了两类对应的类型：<em>整型</em> 和<em>浮点型</em>，它们统称为“算术类型”。其中，整型包含 <code>int</code>，浮点型包含 <code>float</code> 和 <code>double</code>，分别表示单精度浮点数和双精度浮点数，二者的区别我们稍候讨论。</p>
+</div>
+<div class="paragraph">
+<p>如果只能够顺序地进行计算，那我们很难构造出有用的程序，毕竟我们的日常生活中也会面临诸多的决策。C++ 为此提供了 <em>逻辑类型</em> <code>bool</code>，这个类型只有两个值 <code>true</code> 和 <code>false</code>，分别表示逻辑真和逻辑假。</p>
+</div>
+<div class="paragraph">
+<p>算术类型和逻辑类型加上我们后面会讨论的运算符和控制流结构，已经是图灵完备的了。但是，我们还需要一个与计算机进行交互的界面。对人类来说，最自然的界面当然就是文字（在计算机发展的早期，这个界面是一组灯泡亮或不亮，或是打孔卡，想想每次都搞得跟情报站工作人员一样会有多痛苦）。C++ 提供了<em>字符类型</em> <code>char</code>，用以表示 <a href="#bib:ascii">ASCII</a> 字符集中的文字<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="类型修饰符">类型修饰符</h3>
+<div class="paragraph">
+<p>注意到我们还没有讨论过除了 <code>bool</code> 之外的类型的成员，这是因为需要加上本节的内容才能够讨论。</p>
+</div>
+<div class="paragraph">
+<p>在如今典型的 64 位机器上 <code>int</code> 的位宽是 32-bit，能够表示十亿这个量级的数值，然而这有一些明显的局限：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>如果我们只想存储很小的数值，而且不想浪费空间，该怎么办？</p>
+</li>
+<li>
+<p>我们知道，当今的机器都是字节寻址的，如果我们想访问 <code>int</code> 中的一个字节，该怎么做？</p>
+</li>
+<li>
+<p>如果我们想要表示更大的值，该怎么办？</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>signed / unsigned / long</p>
+</div>
+<div class="paragraph">
+<p>const / volatile</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="组合">组合</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="组合数据">组合数据</h3>
+<div class="sect3">
+<h4 id="运算符">运算符</h4>
+
+</div>
+<div class="sect3">
+<h4 id="控制流">控制流</h4>
+
+</div>
+</div>
+<div class="sect2">
+<h3 id="组合类型">组合类型</h3>
+<div class="sect3">
+<h4 id="数组">数组</h4>
+
+</div>
+<div class="sect3">
+<h4 id="指针和引用">指针和引用</h4>
+
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="参考">参考</h2>
+<div class="sectionbody">
+<div class="ulist bibliography">
+<ul class="bibliography">
+<li>
+<p><a id="bib:ascii"></a>[1]</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. 英文是 primitive types，很多资料将其翻译成“基本类型”，不过我们后面会发现，所有的 C++ 程序都是在这些类型的基础上实现的，因此我个人更倾向于译为“基础类型”。
+</div>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. 实际上 <code>char</code> 是可以进行算术运算的，但是因为 <code>char</code> 是 unsigned 还是 signed 是 implementation-defined 的行为，比较特殊，这里就先忽略。
+</div>
+</div>
+
+    </div>
+
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+
+    <aside class="large-3 columns">
+
+        <h4>Posts</h4>
+        <ul id="posts" class="posts nav">
+            
+            <li><a href="/2023/10/23/design-patterns-visitor.html"></a></li>
+            
+            <li><a href="/2023/10/22/cppnotes-preface.html"></a></li>
+            
+            <li><a href="/2023/10/22/cppnotes-intro.html"></a></li>
+            
+        </ul>
+
+        <div class="panel">
+            <h5>Featured</h5>
+
+            <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon
+                nulla pork belly cupidatat meatloaf cow.</p>
+        </div>
+
+    </aside>
+
+    <!-- End Sidebar -->
+</div>
+
+<!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+
+<footer class="row">
+    <div class="large-12 columns">
+        <hr>
+        <div class="row">
+            <div class="large-12 columns">
+                <p>Footer</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+var doc = document.documentElement;
+doc.setAttribute('data-useragent', navigator.userAgent);
+</script>
+</body>
+</html>
